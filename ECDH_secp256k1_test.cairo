@@ -17,7 +17,7 @@ fn ECDH() {
 
     let gx_gy = secp256k1_new_syscall(Gx,Gy).unwrap_syscall().unwrap();
 
-    // Privates Keys:
+    // Private Keys:
 
     let Alice_PrivKey = 0x2;
     let Bob_PrivKey  = 0x3;
