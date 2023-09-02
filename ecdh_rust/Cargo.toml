@@ -1,0 +1,10 @@
+[package]
+name = "ecdh_rust"
+version = "1.0.0"
+
+[dependencies]
+
+k256 = { version = "0.13.1", features = ["ecdh"] }
+p256 = { version = "0.13", features = ["ecdh"] }
+hex = "0.4.3"
+rand_core = "0.6.3"
